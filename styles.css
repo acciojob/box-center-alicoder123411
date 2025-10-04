@@ -7,7 +7,8 @@
   display: flex;               /* makes inner text centerable */
   justify-content: center;     /* horizontally center text */
   align-items: center;         /* vertically center text */
-
+}
+#box p:nth-of-type(1){
   color: purple;               /* correct property for text color */
   text-align: center;          /* optional for multi-line text */
   font-weight: bold;
