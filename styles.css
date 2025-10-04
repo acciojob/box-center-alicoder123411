@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+#box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;     /* shorthand for border color + width */
+  background-color: lightblue;
+
+  display: flex;               /* makes inner text centerable */
+  justify-content: center;     /* horizontally center text */
+  align-items: center;         /* vertically center text */
+
+  color: purple;               /* correct property for text color */
+  text-align: center;          /* optional for multi-line text */
+  font-weight: bold;
+  font-size: 18px;
+}
